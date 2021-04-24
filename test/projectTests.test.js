@@ -1,8 +1,15 @@
 const assert = require('assert');
-const predict = require('..');
 const Car = require('../js/car');
 const predictor = require('../js/predictor');
 const timeToSeconds = require('../js/timeToSeconds');
+const data = require('../js/data');
+
+before('sets global variables', ()=> {
+    global.initialMorningTimeSeconds =25200;//'07:00:00' in seconds
+    global.endMorningTimeSeconds = 34200;//'09:30:00' in seconds
+    global.initialEveningTimeSeconds = 57600;//'16:00:00' in seconds
+    global.endEveningTimeSeconds = 70200;//'19:30:00' in seconds
+});
 
 describe('car.js tests',()=>{
     let testCar= Car('pcv-7321');
