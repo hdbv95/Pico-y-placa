@@ -1,7 +1,7 @@
 const timeToSeconds = require('./timeToSeconds')
 const data = require('./data')
 
-//const used to get de day name instead of the number returned by the getDay function
+//const used to get the day name instead of the number returned by the getDay function
 const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 
 //function that predicts if the car can or can't be on the road
