@@ -1,3 +1,4 @@
+//this file contains the data for the pico y placa
 const data = {
     initialMorningTime: '07:00:00',
     endMorningTime: '09:30:00',
