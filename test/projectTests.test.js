@@ -2,7 +2,6 @@ const assert = require('assert');
 const Car = require('../js/car');
 const predictor = require('../js/predictor');
 const timeToSeconds = require('../js/timeToSeconds');
-const data = require('../js/data');
 
 before('sets global variables', ()=> {
     global.initialMorningTimeSeconds =25200;//'07:00:00' in seconds
